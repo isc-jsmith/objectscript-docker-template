@@ -23,6 +23,12 @@ ClassMethod ReadProperty(id As %Integer) As %Status
     Return sc
 }
 
+ClassMethod Hello()
+{
+	write !,"Hello World!"
+	return ""
+}
+
 Storage Default
 {
 <Data name="PersistentClassDefaultData">
